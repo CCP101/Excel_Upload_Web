@@ -1,0 +1,145 @@
+body{
+  background: url(../img/ocean-3605547_1920.png) no-repeat;
+}
+
+header{
+  position: relative;
+  top:40px;
+  font-family: 华文楷体;
+  color: #eafffd;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 30px;
+}
+
+footer{
+  color: white;
+}
+
+.login{
+  text-align: center;
+}
+
+.type_in form{
+
+}
+
+.container{
+  padding: auto;
+  margin: auto;
+  /* background: url("../img/landscape-4796800_1920.jpg") no-repeat; */
+  width: 1400px;
+  height: 600px;
+}
+
+.none{
+  float: left;
+}
+
+.content{
+  position: relative;
+  background-color: rgb(143, 141, 141,0.45);
+  padding: auto;
+  margin: auto;
+  margin-top:-10%;
+  width: 650px;
+  height: 450px;
+  top: 230px;
+  overflow: hidden;
+}
+
+footer{
+  position: relative;
+  float: left;
+  margin-top: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+#index_button{
+  display: block;
+  font-size:25px;
+  border: none;
+  outline: none;
+  margin: 1.5rem 275px 0;
+  width: 100px;
+  height: 60px;
+  border-radius: 01%;
+  background: linear-gradient(90deg, #849ddf, rgb(107, 137, 223));
+  box-shadow: 0 0 8px #f0f7ff;
+  cursor: pointer;
+}
+
+#index_button:hover {
+  display:block;
+  font-size:28px;
+  border: none;
+  outline: none;
+  margin: 1.5rem 275px 0;
+  width: 100px;
+  height: 60px;
+  border-radius: 15%;
+  background: linear-gradient(90deg, #849ddf, rgb(107, 137, 223));
+  box-shadow: 0 0 8px #1906eb;
+  cursor: pointer;
+  color: rgba(0,0,0,0.6);
+  transition: .4s;
+}
+
+form {
+  width: 12rem;
+  margin: 1rem 0 0;
+}
+
+form .input {
+  position: relative;
+  top:20px;
+  left: 120%;
+  opacity: 1;
+  width: 250px;
+  height: 42px;
+}
+
+form .input#userName {
+  margin: 4.3rem -30px 0;
+  height: 100px;
+
+}
+
+form .input#password {
+  margin: 1.0rem -30px 0;
+  height: 100px;
+}
+
+#login_title{
+  position: relative;
+  top:30px;
+  text-align: center;
+  cursor: default;
+  color: black;
+  font-size: 36px;
+}
+
+.input input {
+  position: relative;
+  margin: auto;
+  padding: auto;
+  outline: none;
+  width: 100%;
+  border: none;
+  background: none;
+  border-bottom: .1rem solid #000000;
+  color: rgba(107, 137, 223, 0.84);
+  font-size: 2rem;
+}
+
+.input::after {
+  content: attr(aria-placeholder);
+  position: absolute;
+  left: 0;
+  top: -20%;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.8);
+  transition: .3s;
+}
+
